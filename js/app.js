@@ -54,7 +54,7 @@ function newGame() {
 	guessCount = 0;
 	found = false;
 	$("ul#guessList li").remove();
-	setFeedback("Guess it!");
+	setFeedback("Make Your Guess!");
 	setCount(guessCount);
 	randomNum = giveNum();
 	setFocus();
